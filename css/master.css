@@ -19,6 +19,7 @@ body {
 
   min-height: 100vh;
   margin: 0;
+  background-color: #5c5c5e;
 }
 
 /* ---------------------------------------------------------- *\
@@ -26,7 +27,7 @@ body {
 \* ---------------------------------------------------------- */
 
 html {
-  color: #444444;
+  color: #f0f0f0;
 
   font: 62.5%/1.6 "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
@@ -107,6 +108,7 @@ dl {
 
 dt {
   font-weight: bold;
+  color: #ffffff;
 }
 
 dd {
@@ -172,13 +174,13 @@ body {
 
 a,
 a:visited {
-  color: #0077dd;
+  color: #6bc4ff;
 
   text-decoration: none;
 }
 
 a:hover {
-  color: #005599;
+  color: #9ad8ff;
 
   text-decoration: underline;
 }
@@ -304,19 +306,18 @@ a:hover {
   margin-bottom: 15px;
   padding-bottom: 15px;
 
-  border-bottom: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .block__notice {
   margin-bottom: 15px;
   padding: 10px;
 
-  color: #027194;
-  background: #ebf7fd;
-  border: 1px solid rgba(45,112,145,0.3);
+  color: #d9f2ff;
+  background: rgba(2, 113, 148, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
 }
-
 .block__notice a {
   color: inherit;
 }
@@ -463,9 +464,9 @@ a:hover {
 
   padding: 5px 10px;
 
-  background: -webkit-linear-gradient(top, white, #fafafa);
-  background:         linear-gradient(to bottom, white, #fafafa);
-  border: 1px solid #cccccc;
+  color: #333;
+  background: linear-gradient(to bottom, #eeeeee, #d8d8d8);
+  border: 1px solid #999999;
   border-radius: 5px;
 }
 
@@ -475,14 +476,13 @@ a:hover {
 }
 
 .button:focus {
-  border: 1px solid #3398ff;
+  border: 1px solid #6bc4ff;
   outline: none;
 }
 
 .button:active {
   color: white;
-  background: -webkit-linear-gradient(top, #3398ff, #0077dd);
-  background:         linear-gradient(to bottom, #3398ff, #0077dd);
+  background: linear-gradient(to bottom, #6bc4ff, #0077dd);
 }
 
 /* ---------------------------------------------------------- *\
